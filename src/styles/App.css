@@ -1,0 +1,8 @@
+.app {
+    min-height: 100vh;
+    background: #f4f7fb;
+}
+
+.main-layout {
+    display: flex;
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.dark {
+
+  background: #111;
+
+  color: white;
+
+}
+
+.dark .card {
+
+  background: #222;
+
+  color: white;
+
+}
+
+.dark input,
+
+.dark select {
+
+  background: #333;
+
+  color: white;
+
+  border: 1px solid #555;
+
+}
+
+.dark button {
+
+  background: #2563eb;
+
+  color: white;
+
+}

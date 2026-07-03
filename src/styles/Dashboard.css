@@ -1,0 +1,108 @@
+.dashboard {
+
+    padding: 40px;
+
+}
+
+.welcome {
+
+    margin-bottom: 40px;
+
+}
+
+.welcome h1 {
+
+    font-size: 42px;
+
+    margin-bottom: 10px;
+
+}
+
+.welcome p {
+
+    color: #555;
+
+    font-size: 18px;
+
+}
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+}
+
+.card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .08);
+
+    transition: .3s;
+
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+.balance {
+
+    border-left: 8px solid #2563eb;
+
+}
+
+.income {
+
+    border-left: 8px solid #16a34a;
+
+}
+
+.expense {
+
+    border-left: 8px solid #dc2626;
+
+}
+
+.card h3 {
+
+    color: #555;
+
+    margin-bottom: 15px;
+
+}
+
+.card h1 {
+
+    font-size: 38px;
+
+}
+
+@media(max-width:900px) {
+
+    .cards {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+.preview h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.preview p {
+    color: #666;
+}
